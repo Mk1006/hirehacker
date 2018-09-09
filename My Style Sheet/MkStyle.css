@@ -1,0 +1,155 @@
+body
+{
+    background-color: #cccccc;
+    font-family: Hobo Std;
+}
+
+*
+{
+    margin:0;
+    padding:0;
+}
+
+#wrapper
+{
+    border:1px solid;
+    width:1080px;
+    margin:auto;
+    padding:10px;
+    background-color: #ffffff;
+}   
+
+#header
+{
+    border: 1px solid;
+    width: 100%;
+    height: 600px;
+}
+
+#header ul
+{
+    list-style-type: none;
+}
+
+#header ul li
+{
+    border: 1px solid;
+    float: left;
+    color: #FFFFFF;
+    background-color: gray;
+    width: 178px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px
+ }
+ 
+#header ul li:hover
+{
+    background-color: #000000;
+    color: red;
+}
+
+#header ul li a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#image
+{
+
+}  
+
+#bodypart
+{
+    margin-top: 10px;
+}
+
+#bodyleft
+{
+    float: left;
+    width: 315px;
+    font-family: Comic Sans MS;
+    font-size: 20px; 
+    height: 450px;
+}
+
+#bodyleft h2
+{
+    border: 1px dashed;
+    background-color: darkslategrey;
+    color: whitesmoke;
+    padding: 4px;
+    text-align: center;
+    font-family: Broadway;
+}
+
+#bodyleft ul
+{
+    list-style-type: none;
+}
+
+#bodyleft ul li
+{
+    background-color: #b1b1b1;
+    margin-top: 3px;
+    padding-left: 5px;
+    height: 40px;
+    line-height: 40px;
+}
+
+#bodyleft ul li:hover
+{
+     background-color: black;
+}
+
+#bodyleft ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+#bodyleft ul li a:hover
+{
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+#bodyright
+{
+    width: 755px;
+    float: left;
+    margin-left: 10px;
+}
+
+#bodyright h2
+{
+    border: 3px solid;
+    background-color: #666666;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+#bodyright p
+{
+    max-height: 350px;
+    padding: 7px;
+    font-size: 1em;
+    line-height: 20px;
+    text-align: justify;
+    overflow: auto;
+}
+
+#bodyright p u
+{
+    background-color: black;
+    color: white;
+    text-decoration: blink;
+}
+#footer
+{
+    border: 1px solid;
+    background-color: #999999;
+    padding: 5px;
+    margin-top: 10px;
+}
